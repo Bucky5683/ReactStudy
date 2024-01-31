@@ -5,8 +5,8 @@ import React from 'react';  //react 불러오기
     리액트 컴포넌트에서는 XML 형식의 값을 반환해줄 수 있는데 이를 JSX 라고 부릅니다. 이에 대해선 다음번에 알아보도록 하겠습니다.
 */
 
-function Hello() {
-  return <div>안녕하세요</div>
+function Hello({ color, name }) {
+    return <div style={{ color }}>안녕하세요 {name}</div>
 }
 
 export default Hello;
