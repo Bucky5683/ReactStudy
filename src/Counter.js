@@ -19,7 +19,7 @@ function Counter() {
   */
 
   const onIncrease = () => {
-    setNumber(prevNumber => prevNumber + 1);
+    setNumber(prevNumber => prevNumber + 1); // 기존 값을 어떻게 업데이트 할 지에 대한 함수를 등록하는 방식으로도 값을 업데이트 할 수 있습니다.
   }
   const onDecrease = () => {
     setNumber(prevNumber => prevNumber - 1);
